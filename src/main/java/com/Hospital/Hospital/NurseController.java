@@ -32,24 +32,5 @@ public class NurseController {
     }
 
     // Datos estáticos de prueba (simulando almacenamiento temporal/JSON)
-    private List<Nurse> getMockNurses() {
-        List<Nurse> list = new ArrayList<>();
 
-        Nurse n1 = new Nurse();
-        n1.setId(1);
-        n1.setNombreCompleto("Laura Gomez");
-        n1.setNombreUsuario("laura.g");
-        n1.setContrasena("1234");
-
-        Nurse n2 = new Nurse();
-        n2.setId(2);
-        n2.setNombreCompleto("Carlos Perez");
-        n2.setNombreUsuario("carlos.p");
-        n2.setContrasena("5678");
-
-        list.add(n1);
-        list.add(n2);
-
-        return list;
-    }
 }
