@@ -1,5 +1,7 @@
 package com.Hospital.Hospital;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Nurse {
 	 
 	private int id;
